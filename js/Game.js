@@ -38,7 +38,7 @@ class Game {
     this.addSprites(fuels, 4, fuelImage, 0.02);
 
     // Adicione o sprite de moeda ao jogo
-    this.addSprites(powerCoins, 18, powerCoinImage, 0.09);
+    this.addSprites(powerCoins, 18, coinImage, 0.09);
   }
 
   // C38 AP
