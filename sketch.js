@@ -4,13 +4,14 @@ var database, gameState;
 var form, player, playerCount;
 var allPlayers, car1, car2;
 var cars = [];
+var fuels, powerCoins, coinImage, fuelImage;
 
 //BP
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("../assets/car1.png");
-  car2_img = loadImage("../assets/car2.png");
-  track = loadImage("../assets/track.jpg");
+  car1_img = loadImage("./assets/car1.png");
+  car2_img = loadImage("./assets/car2.png");
+  track = loadImage("./assets/track.jpg");
   coinImage = loadImage("./assets/goldCoin.png");
   fuelImage = loadImage("./assets/fuel.png");
 }
@@ -40,4 +41,5 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
 
